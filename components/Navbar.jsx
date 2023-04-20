@@ -7,7 +7,7 @@ function Navbar() {
     <div className={styles.container}>
       <div className={styles.item}>
         <div className={styles.callButton}>
-          <Image src = "/img/telephone.png" alt ="" width="32" height ="32"/>
+          <Image src={require('/img/telephone.png')} alt ="" width="32" height ="32"/>
         </div>
         <div className= {styles.texts}>ORDER NOW</div>
         <div className= {styles.texts}>012 345 678</div>
